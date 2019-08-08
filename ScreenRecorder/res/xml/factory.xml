@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <!--     fragment 起始页    是否在nvram存储数据     是否测试闪光灯     是否用系统后CAMERA      是否用系统前CAMERA    sdcard是否造假  是否显示电池电流-->
+    <Factory fragmentIndex="0"  data_in_nvram="true"  flashlight="true" systemBackCamera="true" systemFrontCamera="false"
+        sdcard_fake="true"  batteryCurrent="false">
+        <Item
+            name="lcd"
+            action="com.waterworld.intent.action.LCD_TEST"
+            title="@string/Test_LCD"></Item>
+
+        <Item
+            name="lcmLight"
+            action="com.waterworld.intent.action.LCM_LIGHT"
+            title="@string/title_lcmlight_test"></Item>
+
+        <!--<Item-->
+            <!--name="back_camera"-->
+            <!--action ="com.waterworld.intent.action.CAMERA_TEST"-->
+            <!--title="@string/back_camera1"></Item>-->
+
+        <!--<Item-->
+            <!--name="front_camera"-->
+            <!--action="com.waterworld.intent.action.FRONTCAMERA_TEST"-->
+            <!--title="@string/front_camera"></Item>-->
+        <Item
+            name="masterCamera"
+            action="com.waterworld.intent.action.MASTER_CAMERA_TEST"
+            title="@string/master_camera"></Item>
+        <Item
+            name="front2Camera"
+            action="com.waterworld.intent.action.FRONT2_CAMERA_TEST"
+            title="@string/front_camera"></Item>
+        <Item
+            name="AssistCamera"
+            action="com.waterworld.intent.action.ASSIST_CAMERA_TEST"
+            title="@string/assist_camera"
+            visible="false"></Item>
+
+        <Item
+            name="sensor"
+            action="com.waterworld.intent.action.SENSOR_TEST"
+            title="@string/Button_Test_Sensor"></Item>
+        <Item
+            name="wifi"
+            action="com.waterworld.intent.action.WIFI_TEST"
+            title="@string/title_activity_WIFI_test"></Item>
+        <Item
+            name="bluetooth"
+            action="com.waterworld.intent.action.BT_TEST"
+            title="@string/title_activity_BT_test"></Item>
+
+        <Item
+            name="phone"
+            action="com.waterworld.intent.action.PHONE_TEST"
+            title="@string/title_activity_phone_test"></Item>
+
+        <Item
+            name="key"
+            action="com.waterworld.intent.action.KEY_TEST"
+            title="@string/title_activity_key_test"></Item>
+        <Item
+            name="NavigationKey"
+            action="com.waterworld.intent.action.NAVIGATION_KEY"
+            title="@string/title_activity_key_test"
+            visible="false"></Item>
+        <Item
+            name="fm"
+            action="com.waterworld.intent.action.FMRADIO_TEST"
+            title="@string/title_activity_fmradio_test"></Item>
+        <Item
+            name="mic"
+            action="com.waterworld.intent.action.MIC_TEST"
+            title="@string/title_activity_Mic_test"></Item>
+
+        <Item
+            name="phone_mic"
+            action="com.waterworld.intent.action.PHONEMIC_TEST"
+            title="@string/values_mic_test"></Item>
+        <Item
+            name="loud_speaker"
+            action="com.waterworld.intent.action.LOUDSPEAKER_TEST"
+            title="@string/title_activity_LoudSpeaker_test"></Item>
+        <Item
+            name="vibrator"
+            action="com.waterworld.intent.action.VIBRATE_TEST"
+            title="@string/title_activity_vibate_test"></Item>
+        <Item
+            name="touch_panel"
+            action="com.waterworld.intent.action.TP_TEST"
+            title="@string/title_activity_tp_test"></Item>
+        <Item
+            name="sim"
+            action="com.waterworld.intent.action.SIMCARD_TEST"
+            title="@string/title_activity_SimCard_test"></Item>
+        <Item
+            name="sdcard"
+            action="com.waterworld.intent.action.SDCARD_TEST"
+            title="@string/title_activity_SDCard_test"></Item>
+        <Item
+            name="speaker"
+            action="com.waterworld.intent.action.SPEAKER_TEST"
+            title="@string/title_activity_Speaker_test"></Item>
+        <Item
+            name="GPS"
+            action="com.waterworld.intent.action.GPS_TEST"
+            title="@string/Button_Test_Gps"></Item>
+        <Item
+            name="battery"
+            action="com.waterworld.intent.action.BATTERY_TEST"
+            title="@string/title_activity_battery_test"></Item>
+        <Item
+            name="finger"
+            action="com.waterworld.intent.action.HX_FINGERPRINT_TEST"
+            title="@string/Button_Test_Fingerprint"
+            visible="true"></Item>
+        <!--<Item-->
+            <!--name="secondCamera"-->
+            <!--action="com.waterworld.intent.action.SECOND_CAMERA_TEST"-->
+            <!--title="@string/second_camera_test"></Item>-->
+        <Item
+            name="led"
+            action="com.waterworld.intent.action.LED_TEST"
+            title="@string/led_test"
+            visible="true"></Item>
+        <Item
+            name="msensor"
+            action="com.waterworld.intent.action.MSENSOR_TEST"
+            title="@string/msensor_test"></Item>
+        <!--<Item-->
+            <!--name="otg"-->
+            <!--action="com.waterworld.intent.action.OTG_TEST"-->
+            <!--title="@string/otg_test"></Item>-->
+        <Item
+            name="otg2"
+            action="com.waterworld.intent.action.OTG2_TEST"
+            title="@string/otg_test"></Item>
+
+        <Item
+            name="masterFlash"
+            action="com.waterworld.intent.action.MASTERFLASH_TEST"
+            title="@string/masterflash_test"></Item>
+        <Item
+            name="secondFlash"
+            action="com.waterworld.intent.action.SECONDFLASH_TEST"
+            title="@string/secondflash_test"
+            visible="false"></Item>
+        <Item
+            name="gySensor"
+            action="com.waterworld.intent.action.GYSENSOR_TEST"
+            title="@string/gy_sensor_test"
+            visible="true"></Item>
+
+    </Factory>
+</resources>
